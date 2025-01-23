@@ -11,7 +11,6 @@ import warnings
 import qutip as qt
 
 try:
-    import jax
     import jaxlib
     _jitfun_type = jaxlib.xla_extension.PjitFunction
 except ImportError:

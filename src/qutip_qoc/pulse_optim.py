@@ -11,8 +11,6 @@ import qutip_qtrl.pulseoptim as cpo
 from qutip_qoc._optimizer import _global_local_optimization
 from qutip_qoc._time import _TimeInterval
 
-import qutip as qt
-
 try:
     from qutip_qoc._rl import _RL
     _rl_available = True
